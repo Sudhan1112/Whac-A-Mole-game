@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    color: #00e777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .game-container {
+    width: 400px;
+    background: #222;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(174, 2, 2, 0.2);
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #00e777;
+    margin-bottom: 20px;
+  }
+  .info-panel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .info-panel div {
+    font-size: 1.2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .circle:hover {
+    background: #ffec99;
+  }
+  
+  .circle.mole {
+    background: #ff6b6b;
+    color: #fff;
+    transform: scale(1.2);
+  }
+  
+  .start-btn, .restart-btn {
+    background: #00e777;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin: 5px;
+  }
+  
+  .start-btn:hover, .restart-btn:hover {
+    background: #ffffff;
+    transform: translateY(-2px);
+    color: black;
+  }
+  
+  .start-btn:active, .restart-btn:active {
+    background: #4444dd;
+  }
+  

@@ -1,3 +1,3 @@
 Tech stack:
 
-JS
+HTML, CSS, JS
